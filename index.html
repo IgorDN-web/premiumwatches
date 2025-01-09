@@ -16,298 +16,309 @@
     <!-- Подключение локальных стилей (index-d4d3568f.css) -->
     <link
       rel="stylesheet"
-      href="/devghosts-watches-teamproject/assets/index-d4d3568f.css"
+      href=""
     />
 
     <!-- Подключение локальных пользовательских стилей -->
     <link rel="stylesheet" href="./css/styles.css" />
 
-    <script type="module" crossorigin src=""></script>
+    <script
+      type="module"
+      crossorigin
+      src="/devghosts-watches-teamproject/commonHelpers.js"
+    ></script>
   </head>
 
-  <section class="about-section" id="about">
-    <div class="container">
-      <div class="about-container">
-        <div class="about-block-text">
-          <h2 class="about-header">About Us</h2>
-          <ul class="about-list">
-            <li class="about-list-item">
-              <p class="about-paragraph">
-                Welcome to our premium watch collection, where luxury and style
-                meet functionality and precision. Our selection of timepieces
-                embodies the very best in Swiss craftsmanship and engineering,
-                ensuring that you'll always have a reliable and stylish
-                accessory on your wrist.
-              </p>
+      <section class="about-section" id="about">
+        <div class="container">
+          <div class="about-container">
+            <div class="about-block-text">
+              <h2 class="about-header">About Us</h2>
+              <ul class="about-list">
+                <li class="about-list-item">
+                  <p class="about-paragraph">
+                    Welcome to our premium watch collection, where luxury and
+                    style meet functionality and precision. Our selection of
+                    timepieces embodies the very best in Swiss craftsmanship and
+                    engineering, ensuring that you'll always have a reliable and
+                    stylish accessory on your wrist.
+                  </p>
+                </li>
+                <li class="about-list-item">
+                  <p class="about-paragraph">
+                    At our premium watch collection, we believe that a watch is
+                    more than just a timekeeping device - it's a statement piece
+                    that reflects your personality and style. So why settle for
+                    anything less than the best?
+                  </p>
+                </li>
+              </ul>
+              <div class="about-button-wrapper">
+                <a class="about-button" href="#catalog">View catalog</a>
+              </div>
+            </div>
+            <div class="about-block-image" data-aos="fade-left">
+              <picture>
+                <!-- Desktop screen -->
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                  ./images/aboutus1x.png, 
+                  ./images/aboutus2x.png
+                  "
+                />
+                <!-- Tablet screen -->
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/aboutus1xtablet.png,
+                    ./images/aboutus2xtablet.png
+                  "
+                />
+                <!-- Mobile screen -->
+                <source
+                  media="(min-width: 320px)"
+                  srcset="
+                    ./images/aboutus1xmobile.png,
+                    ./images/aboutus2xmobile.png
+                  "
+                />
+                <img
+                  src="./images/aboutus1x.png"
+                  alt="watches"
+                  class="about-image"
+                  loading="lazy"
+                  width="530"
+                  height="532"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog" id="catalog">
+        <div class="container">
+          <h2 class="catalog-main-title">Catalog</h2>
+          <ul class="catalog-list">
+            <li class="catalog-list-item">
+              <picture>
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/garminfenix7xprosapphiresolar1x.png,
+                    ./images/garminfenix7xprosapphiresolar-2x.png
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/garminfenix7xprosapphiresolar1xtablet.png,
+                    ./images/garminfenix7xprosapphiresolar2xtablet.png
+                  "
+                />
+                <source
+                  media="(min-width: 320px)"
+                  srcset="
+                    ./images/garminfenix7xprosapphiresolar1xmobile.png,
+                    ./images/garminfenix7xprosapphiresolar2xmobile.png
+                  "
+                />
+                <img
+                  class="catalog-pic"
+                  src="./images/garminfenix7xprosapphiresolar1x.png"
+                  alt="Garmin Fenix 7X Pro Sapphire Solar"
+                  loading="lazy"
+                />
+              </picture>
+              <div class="catalog-text-wrapper">
+                <h3 class="catalog-title">
+                  Garmin Fenix 7X Pro Sapphire Solar
+                </h3>
+                <p class="catalog-text">€500</p>
+              </div>
             </li>
-            <li class="about-list-item">
-              <p class="about-paragraph">
-                At our premium watch collection, we believe that a watch is more
-                than just a timekeeping device - it's a statement piece that
-                reflects your personality and style. So why settle for anything
-                less than the best?
-              </p>
+            <li class="catalog-list-item">
+              <picture>
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/garminmarqathlete.png,
+                    ./images/garminmarqathlete-2x.png
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/garminmarqathlete1xtablet.png,
+                    ./images/garminmarqathlete2xtablet.png
+                  "
+                />
+                <source
+                  media="(min-width: 320px)"
+                  srcset="
+                    ./images/garminmarqathlete1xmobile.png,
+                    ./images/garminmarqathlete2xmobile.png
+                  "
+                />
+                <img
+                  class="catalog-pic"
+                  src="./images/garminmarqathlete.png"
+                  alt="Garmin Marq Athlete "
+                  loading="lazy"
+                />
+              </picture>
+              <div class="catalog-text-wrapper">
+                <h3 class="catalog-title">Garmin Marq Athlete</h3>
+                <p class="catalog-text">€450</p>
+              </div>
+            </li>
+            <li class="catalog-list-item">
+              <picture>
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/garmindescentmk1.png,
+                    ./images/garmindescentmk1-2x.png
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/garmindescentmk1xtablet.png,
+                    ./images/garmindescentmk2xtablet.png
+                  "
+                />
+                <source
+                  media="(min-width: 320px)"
+                  srcset="
+                    ./images/garmindescentmk1xmobile.png,
+                    ./images/garmindescentmk2xmobile.png
+                  "
+                />
+                <img
+                  class="catalog-pic"
+                  src="./images/garmindescentmk1.png"
+                  alt="Garmin Descent MK1 "
+                  loading="lazy"
+                />
+              </picture>
+              <div class="catalog-text-wrapper">
+                <h3 class="catalog-title">Garmin Descent MK1</h3>
+                <p class="catalog-text">€680</p>
+              </div>
+            </li>
+            <li class="catalog-list-item">
+              <picture>
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/garmind2deltapx.png,
+                    ./images/garmind2deltapx-2x.png
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/garmind2deltapx1xtablet.png,
+                    ./images/garmind2deltapx2xtablet.png
+                  "
+                />
+                <source
+                  media="(min-width: 320px)"
+                  srcset="
+                    ./images/garmind2deltapx-1xmobile.png,
+                    ./images/garmind2deltapx-2xmobile.png
+                  "
+                />
+                <img
+                  class="catalog-pic"
+                  src="./images/garmind2deltapx.png"
+                  alt="Garmin D2 Delta PX"
+                  loading="lazy"
+                />
+              </picture>
+              <div class="catalog-text-wrapper">
+                <h3 class="catalog-title">Garmin D2 Delta PX</h3>
+                <p class="catalog-text">€380</p>
+              </div>
+            </li>
+            <li class="catalog-list-item">
+              <picture>
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/garminfenix6prosolar.png,
+                    ./images/garminfenix6prosolar-2x.png
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/garminfenix6prosolar1xtablet.png,
+                    ./images/garminfenix6prosolar2xtablet.png
+                  "
+                />
+                <source
+                  media="(min-width: 320px)"
+                  srcset="
+                    ./images/garminfenix6prosolar1xmobile.jpg,
+                    ./images/garminfenix6prosolar2xmobile.jpg
+                  "
+                />
+                <img
+                  class="catalog-pic"
+                  src="./images/garminfenix6prosolar.png"
+                  alt="Garmin Fenix 6 Pro Solar"
+                  loading="lazy"
+                />
+              </picture>
+              <div class="catalog-text-wrapper">
+                <h3 class="catalog-title">Garmin Fenix 6 Pro Solar</h3>
+                <p class="catalog-text">€400</p>
+              </div>
+            </li>
+            <li class="catalog-list-item">
+              <picture>
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/tubewatchs42datesteelwithblackcase1x.png,
+                    ./images/tubewatchs42datesteelwithblackcase2x.png
+                  "
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tubewatchs42datesteelwithblackcase1xtablet.png,
+                    ./images/tubewatchs42datesteelwithblackcase2xtablet.png
+                  "
+                />
+                <source
+                  media="(min-width: 320px)"
+                  srcset="
+                    ./images/tubewatchs42datesteelwithblackcase1x.jpg,
+                    ./images/tubewatchs42datesteelwithblackcase2x.jpg
+                  "
+                />
+                <img
+                  class="catalog-pic"
+                  src="./images/tubewatchs42datesteelwithblackcase1x.png"
+                  alt="Tube Watch S42 Date Steel With Black Case"
+                  loading="lazy"
+                />
+              </picture>
+              <div class="catalog-text-wrapper">
+                <h3 class="catalog-title">
+                  Tube Watch S42 Date Steel With Black Case
+                </h3>
+                <p class="catalog-text">€395</p>
+              </div>
             </li>
           </ul>
-          <div class="about-button-wrapper">
-            <a class="about-button" href="#catalog">View catalog</a>
-          </div>
+          <button type="submit" class="catalog-btn">Show more</button>
         </div>
-        <div class="about-block-image" data-aos="fade-left">
-          <picture>
-            <!-- Desktop screen -->
-            <source
-              media="(min-width: 1280px)"
-              srcset="./images/aboutus1x.png, ./images/aboutus2x.png"
-            />
-            <!-- Tablet screen -->
-            <source
-              media="(min-width: 768px)"
-              srcset="
-                ./images/aboutus1xtablet.png,
-                ./images/aboutus2xtablet.png
-              "
-            />
-            <!-- Mobile screen -->
-            <source
-              media="(min-width: 320px)"
-              srcset="
-                ./images/aboutus1xmobile.png,
-                ./images/aboutus2xmobile.png
-              "
-            />
-            <img
-              src="./images/aboutus1x.png"
-              alt="watches"
-              class="about-image"
-              loading="lazy"
-              width="530"
-              height="532"
-            />
-          </picture>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="catalog" id="catalog">
-    <div class="container">
-      <h2 class="catalog-main-title">Catalog</h2>
-      <ul class="catalog-list">
-        <li class="catalog-list-item">
-          <picture>
-            <source
-              media="(min-width: 1280px)"
-              srcset="
-                ./images/garminfenix7xprosapphiresolar1x.png,
-                ./images/garminfenix7xprosapphiresolar-2x.png
-              "
-            />
-            <source
-              media="(min-width: 768px)"
-              srcset="
-                ./images/garminfenix7xprosapphiresolar1xtablet.png,
-                ./images/garminfenix7xprosapphiresolar2xtablet.png
-              "
-            />
-            <source
-              media="(min-width: 320px)"
-              srcset="
-                ./images/garminfenix7xprosapphiresolar1xmobile.png,
-                ./images/garminfenix7xprosapphiresolar2xmobile.png
-              "
-            />
-            <img
-              class="catalog-pic"
-              src="./images/garminfenix7xprosapphiresolar1x.png"
-              alt="Garmin Fenix 7X Pro Sapphire Solar"
-              loading="lazy"
-            />
-          </picture>
-          <div class="catalog-text-wrapper">
-            <h3 class="catalog-title">Garmin Fenix 7X Pro Sapphire Solar</h3>
-            <p class="catalog-text">€500</p>
-          </div>
-        </li>
-        <li class="catalog-list-item">
-          <picture>
-            <source
-              media="(min-width: 1280px)"
-              srcset="
-                ./images/garminmarqathlete.png,
-                ./images/garminmarqathlete-2x.png
-              "
-            />
-            <source
-              media="(min-width: 768px)"
-              srcset="
-                ./images/garminmarqathlete1xtablet.png,
-                ./images/garminmarqathlete2xtablet.png
-              "
-            />
-            <source
-              media="(min-width: 320px)"
-              srcset="
-                ./images/garminmarqathlete1xmobile.png,
-                ./images/garminmarqathlete2xmobile.png
-              "
-            />
-            <img
-              class="catalog-pic"
-              src="./images/garminmarqathlete.png"
-              alt="Garmin Marq Athlete "
-              loading="lazy"
-            />
-          </picture>
-          <div class="catalog-text-wrapper">
-            <h3 class="catalog-title">Garmin Marq Athlete</h3>
-            <p class="catalog-text">€450</p>
-          </div>
-        </li>
-        <li class="catalog-list-item">
-          <picture>
-            <source
-              media="(min-width: 1280px)"
-              srcset="
-                ./images/garmindescentmk1.png,
-                ./images/garmindescentmk1-2x.png
-              "
-            />
-            <source
-              media="(min-width: 768px)"
-              srcset="
-                ./images/garmindescentmk1xtablet.png,
-                ./images/garmindescentmk2xtablet.png
-              "
-            />
-            <source
-              media="(min-width: 320px)"
-              srcset="
-                ./images/garmindescentmk1xmobile.png,
-                ./images/garmindescentmk2xmobile.png
-              "
-            />
-            <img
-              class="catalog-pic"
-              src="./images/garmindescentmk1.png"
-              alt="Garmin Descent MK1 "
-              loading="lazy"
-            />
-          </picture>
-          <div class="catalog-text-wrapper">
-            <h3 class="catalog-title">Garmin Descent MK1</h3>
-            <p class="catalog-text">€680</p>
-          </div>
-        </li>
-        <li class="catalog-list-item">
-          <picture>
-            <source
-              media="(min-width: 1280px)"
-              srcset="
-                ./images/garmind2deltapx.png,
-                ./images/garmind2deltapx-2x.png
-              "
-            />
-            <source
-              media="(min-width: 768px)"
-              srcset="
-                ./images/garmind2deltapx1xtablet.png,
-                ./images/garmind2deltapx2xtablet.png
-              "
-            />
-            <source
-              media="(min-width: 320px)"
-              srcset="
-                ./images/garmind2deltapx-1xmobile.png,
-                ./images/garmind2deltapx-2xmobile.png
-              "
-            />
-            <img
-              class="catalog-pic"
-              src="./images/garmind2deltapx.png"
-              alt="Garmin D2 Delta PX"
-              loading="lazy"
-            />
-          </picture>
-          <div class="catalog-text-wrapper">
-            <h3 class="catalog-title">Garmin D2 Delta PX</h3>
-            <p class="catalog-text">€380</p>
-          </div>
-        </li>
-        <li class="catalog-list-item">
-          <picture>
-            <source
-              media="(min-width: 1280px)"
-              srcset="
-                ./images/garminfenix6prosolar.png,
-                ./images/garminfenix6prosolar-2x.png
-              "
-            />
-            <source
-              media="(min-width: 768px)"
-              srcset="
-                ./images/garminfenix6prosolar1xtablet.png,
-                ./images/garminfenix6prosolar2xtablet.png
-              "
-            />
-            <source
-              media="(min-width: 320px)"
-              srcset="
-                ./images/garminfenix6prosolar1xmobile.jpg,
-                ./images/garminfenix6prosolar2xmobile.jpg
-              "
-            />
-            <img
-              class="catalog-pic"
-              src="./images/garminfenix6prosolar.png"
-              alt="Garmin Fenix 6 Pro Solar"
-              loading="lazy"
-            />
-          </picture>
-          <div class="catalog-text-wrapper">
-            <h3 class="catalog-title">Garmin Fenix 6 Pro Solar</h3>
-            <p class="catalog-text">€400</p>
-          </div>
-        </li>
-        <li class="catalog-list-item">
-          <picture>
-            <source
-              media="(min-width: 1280px)"
-              srcset="
-                ./images/tubewatchs42datesteelwithblackcase1x.png,
-                ./images/tubewatchs42datesteelwithblackcase2x.png
-              "
-            />
-            <source
-              media="(min-width: 768px)"
-              srcset="
-                ./images/tubewatchs42datesteelwithblackcase1xtablet.png,
-                ./images/tubewatchs42datesteelwithblackcase2xtablet.png
-              "
-            />
-            <source
-              media="(min-width: 320px)"
-              srcset="
-                ./images/tubewatchs42datesteelwithblackcase1x.jpg,
-                ./images/tubewatchs42datesteelwithblackcase2x.jpg
-              "
-            />
-            <img
-              class="catalog-pic"
-              src="./images/tubewatchs42datesteelwithblackcase1x.png"
-              alt="Tube Watch S42 Date Steel With Black Case"
-              loading="lazy"
-            />
-          </picture>
-          <div class="catalog-text-wrapper">
-            <h3 class="catalog-title">
-              Tube Watch S42 Date Steel With Black Case
-            </h3>
-            <p class="catalog-text">€395</p>
-          </div>
-        </li>
-      </ul>
-      <button type="submit" class="catalog-btn">Show more</button>
-    </div>
-  </section>
+      </section>
+    </main>
+  </body>
 </html>

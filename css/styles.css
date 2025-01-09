@@ -197,6 +197,10 @@ table {
 }
 
 /*=================about=============*/
+[data-aos^="fade"] {
+  opacity: 1 !important;
+  transform: none !important;
+}
 .about-header {
   font-family: var(--font-family);
   font-weight: 600;
